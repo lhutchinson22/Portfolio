@@ -7,8 +7,12 @@ body {
   background-size: cover;
 }
 
+p {
+  color: whitesmoke;
+}
 h1,
 h2 {
+  color: whitesmoke;
   font-family: "Fira Sans", sans-serif;
   font-family: "Secular One", sans-serif;
 }
@@ -19,11 +23,12 @@ h2 {
 }
 
 .container-box {
-  width: 600px;
+  width: 100%;
   padding: 50px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: rgb(48, 47, 47);
+  border-radius: 5px;
 }
 
 .about-me-saturn {
@@ -45,11 +50,34 @@ h2 {
 }
 
 .card-footer {
-  background-color: lightgray;
+  background-color: rgb(48, 47, 47);
   text-align: center;
   position: relative;
   bottom: 0px;
+  /* color: whitesmoke; */
 }
 .img-thumbnail {
   width: 300px;
+}
+
+#socialBox {
+  /* background-color: black; */
+  /* width: 500px; */
+  padding-left: 450px;
+}
+
+.portTitle {
+  color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-port {
+  width: 75%;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 12.5%;
+  margin-bottom: 50px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 5px;
 }
