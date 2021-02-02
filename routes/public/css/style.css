@@ -1,22 +1,40 @@
-.banner-image {
+.parallax {
+  /* The image used */
   background-image: url("./../../../Assets/Images/barrys3.png");
+
   /* Set a specific height */
-  height: 750px;
-  opacity: 0.9;
-  /* Position and center the image to scale nicely on all screens */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+/* .banner-image {
+  background-image: url("./../../../Assets/Images/barrys3.png"); */
+/* Set a specific height */
+/* height: 750px;
+  opacity: 0.9; */
+/* Position and center the image to scale nicely on all screens */
+/* background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
   margin-bottom: 20px;
-}
+} */
 
+/* start nav bar */
 nav {
-  background-color: black !important;
+  background-color: white !important;
 }
-
-.navbar {
-  color: white;
+.navbar-dark .navbar-nav .nav-link {
+  color: #6c757d;
 }
+.navbar-dark .navbar-brand {
+  color: #6c757d;
+}
+/* end nav bar */
 
 body {
   /* background-image: url(./Assets/Images/galaxy-wallpaper-31.jpg); */
@@ -32,7 +50,7 @@ p {
 }
 h1,
 h2 {
-  color: whitesmoke;
+  color: #6c757d !important;
   font-family: "Fira Sans", sans-serif;
   font-family: "Secular One", sans-serif;
 }
@@ -42,20 +60,6 @@ h2 {
   /* min-height: 100vh; */
 }
 
-/* .container-box {
-  width: 100%;
-  padding: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: rgb(48, 47, 47);
-  border-radius: 5px;
-} */
-#banner-btn {
-  background-color: white;
-  border-radius: 5px;
-  text-align: center;
-  border-color: red;
-}
 .about-me-pic {
   display: block;
   margin-left: auto;
@@ -94,11 +98,12 @@ h2 {
 }
 
 .card-footer {
-  background-color: black;
+  background-color: white;
   text-align: center;
   position: relative;
   bottom: 0px;
   height: 150px;
+  border-top: none;
   /* color: whitesmoke; */
 }
 .img-thumbnail {
@@ -106,7 +111,7 @@ h2 {
 }
 
 .portTitle {
-  color: grey;
+  color: #6c757d !important;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -117,12 +122,12 @@ h2 {
   margin-top: 50px;
   margin-left: 12.5%;
   margin-bottom: 50px;
-  background-color: rgb(48, 47, 47);
+  background-color: white;
   border-radius: 5px;
 }
 
 .githubLink {
-  color: whitesmoke;
+  color: #6c757d;
   padding-top: 5px;
   padding-left: 5px;
 }
