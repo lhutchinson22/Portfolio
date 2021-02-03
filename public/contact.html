@@ -21,6 +21,7 @@
       <span class="navbar-brand mb-1 h1">Lauren Hutchinson</span>
       <button
         class="navbar-toggler"
+        style="background-color: black; width: 60px"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -51,32 +52,46 @@
       </div>
     </nav>
     <!-- End Nav -->
+
+    <!-- BANNER -->
+    <div class="banner-image paraPort"></div>
+    <!-- END BANNER -->
+
     <div class="container">
-      <div class="row">
-        <div class="col-md-12" id="aboutMeStyle">
-          <div class="aboutMeDivText">
-            <p id="aboutmeText">
-              Hey! My name is Lauren Hutchinson and I am currently living in
-              Tiburon, CA! I grew up in the city of San Francisco, but we moved
-              to Marin County in middle school. Right now, I am full-time
-              fitness instructor at Barry's Bootcamp by day, and a coder by
-              night.
-              <br /><br />
-              I'm so excited to begin my new coding career. When I'm not coding,
-              I'm usually teaching myself how to DJ, skateboarding, or hanging
-              out with friends. Coding challenges me in a new way and I'm
-              grateful for this opportunity to expand.
-            </p>
+      <div class="container-box">
+        <form>
+          <h1>Contact</h1>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput"
+              placeholder="Name"
+            />
           </div>
-          <img
-            src="./Assets/Images/8F117B5F-2715-4914-A3A7-122584B0CA76.JPG"
-            alt="me"
-            class="about-me-pic"
-          />
-        </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Email</label>
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Message</label>
+            <input
+              type="text"
+              class="form-control"
+              id="formGroupExampleInput2"
+              placeholder="Message"
+            />
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
       </div>
     </div>
-
     <div class="card-footer text-muted">
       © 2021 Lauren Hutchinson
       <a href="./Assets/Images/ResumeCodingPDF.zip" download>

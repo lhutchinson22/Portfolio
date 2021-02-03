@@ -1,28 +1,41 @@
 .parallax {
   /* The image used */
-  background-image: url("./../../../Assets/Images/barrys3.png");
+  background-image: url("../Assets/Images/barrys3.png");
 
   /* Set a specific height */
-  min-height: 700px;
+  min-height: 800px;
+  max-height: 1500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 70% !important;
 }
 
-/* .banner-image {
-  background-image: url("./../../../Assets/Images/barrys3.png"); */
-/* Set a specific height */
-/* height: 750px;
-  opacity: 0.9; */
-/* Position and center the image to scale nicely on all screens */
-/* background-position: center;
+.paraPort {
+  /* The image used */
+  background-image: url("../Assets/Images/barrys3.png");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70% !important;
+}
+
+.banner-image {
+  background-image: url("../Assets/Images/barrys3.png");
+  height: 400px;
+  opacity: 0.5;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
   margin-bottom: 20px;
-} */
+}
 
 /* start nav bar */
 nav {
@@ -37,7 +50,6 @@ nav {
 /* end nav bar */
 
 body {
-  /* background-image: url(./Assets/Images/galaxy-wallpaper-31.jpg); */
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -148,4 +160,12 @@ button {
   margin: auto;
   width: 50%;
   padding: 10px;
+}
+
+@media screen and (min-width: 400px) {
+  .parallax {
+    height: 100%;
+    background-size: 90%;
+    /* margin-left: 50px; */
+  }
 }
