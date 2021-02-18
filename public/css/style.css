@@ -78,7 +78,7 @@ h2 {
   position: relative;
   /* min-height: 100vh; */
   margin-top: 100px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .about-me-pic {
@@ -177,6 +177,14 @@ button {
 
 #contactFormButton {
   margin-left: 150px;
+}
+
+.contactInfoSpan {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 0px;
 }
 
 @media screen and (min-width: 400px) {
